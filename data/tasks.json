@@ -1,0 +1,38 @@
+[
+    {
+        "task_description": "DSA Preparation",
+        "task_due_date": "2024-08-15",
+        "email": "ramya29arc@gmail.com",
+        "status": "pending"
+    },
+    {
+        "task_description": "Get Groceries",
+        "task_due_date": "2024-08-17",
+        "email": "ramya29arc@gmail.com",
+        "status": "pending"
+    },
+    {
+        "task_description": "Test Task",
+        "task_due_date": "2024-08-31",
+        "email": "ramya29arc@gmail.com",
+        "status": "completed"
+    },
+    {
+        "task_description": "Send email to boss",
+        "task_due_date": "2024-08-09",
+        "email": "ramya29arc@gmail.com",
+        "status": "pending"
+    },
+    {
+        "task_description": "Python Project",
+        "task_due_date": "2024-08-24",
+        "email": "ramya29arc@gmail.com",
+        "status": "pending"
+    },
+    {
+        "task_description": "cs50 ",
+        "task_due_date": "2024-08-17",
+        "email": "ramya29arc@gmail.com",
+        "status": "pending"
+    }
+]

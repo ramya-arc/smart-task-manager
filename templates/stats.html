@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Stats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #3498db;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .stats {
+            margin-bottom: 20px;
+        }
+        .stats p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-link a {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-link a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Statistics</h1>
+        <div class="stats">
+            <p>Total Tasks: {{ total_tasks }}</p>
+            <p>Completed Tasks: {{ completed_tasks }}</p>
+            <p>Pending Tasks: {{ pending_tasks }}</p>
+        </div>
+        <div class="back-link">
+            <a href="{{ url_for('index') }}">Go Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
